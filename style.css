@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}  
+
+body {
+  font-family: 'roboto' sans-serif;
+  font-size: 16px;
+}
+.hero {
+    background-image: url('img/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  .hero-content h1 {
+    font-size: 4rem;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 2rem;
+  }
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: #42b983;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cta-button, .learn-more-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #42b983;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color: #1222d8;
+  }
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+  }  
+  
